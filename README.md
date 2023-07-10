@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+<!-- 
+Following error when launching live server via firefox on termnial wsl2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/daniel/first-app/src/index.js: Identifier 'fruits' has already been declared. (5:7)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+�[0m �[90m 3 |�[39m�[0m
+�[0m �[90m 4 |�[39m�[0m
+�[0m�[31m�[1m>�[22m�[39m�[90m 5 |�[39m �[36mimport�[39m fruits �[36mfrom�[39m �[32m'./fruits'�[39m�[33m;�[39m�[0m
+�[0m �[90m   |�[39m        �[31m�[1m^�[22m�[39m�[0m
+�[0m �[90m 6 |�[39m �[36mimport�[39m { choice�[33m,�[39m remove } �[36mfrom�[39m �[32m'./helpers'�[39m�[33m;�[39m�[0m
+�[0m �[90m 7 |�[39m�[0m
+�[0m �[90m 8 |�[39m �[36mlet�[39m fruit �[33m=�[39m choice(fruits)�[33m;�[39m�[0m
+    at instantiate (/home/daniel/first-app/node_modules/@babel/parser/lib/index.js:63:32)
+    at constructor (/home/daniel/first-app/node_modules/@babel/parser/lib/index.js:358:12)
+    at FlowParserMixin.raise (/home/daniel/first-app/node_modules/@babel/parser/lib/index.js:3255:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/home/daniel/first-app/node_modules/@babel/parse bundle.js:10:7
+    js http://localhost:3000/static/js/bundle.js:10
+    factory http://localhost:3000/static/js/bundle.js:10379
+    __webpack_require__ http://localhost:3000/static/js/bundle.js:9836
+    <anonymous> http://localhost:3000/static/js/bundle.js:10956
+    <anonymous> http://localhost:3000/static/js/bundle.js:10958 -->
